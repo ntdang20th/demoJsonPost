@@ -25,7 +25,7 @@ SECRET_KEY = '1!9m@jz2nvr3%^r%c4e52l1zkd__othyy678hu%5oucs&3u6dv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','']
+ALLOWED_HOSTS = ['127.0.0.1','demojsonpost.herokuapp.com']
 
 
 # Application definition
