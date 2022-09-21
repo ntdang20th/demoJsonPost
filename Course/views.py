@@ -9,9 +9,9 @@ import json
 class GetAllCoursesAPIView(APIView):
 
     def get(self, request):
-        list_courses = Course.objects.all()
-        mydata = GetAllCourseSerializer(list_courses, many =True)
-        return Response(data=mydata.data, status = status.HTTP_200_OK)
+        #list_courses = Course.objects.all()
+        #mydata = GetAllCourseSerializer(list_courses, many =True)
+        return Response("This is get mothod", status = status.HTTP_200_OK)
 
     def post(self, request):
         mydata = data=request.data
