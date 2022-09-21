@@ -16,7 +16,7 @@ class GetAllCoursesAPIView(APIView):
     def post(self, request):
         mydata = data=request.data
 
-        with open("D:/file.json", "w+") as f:
-            json.dump(mydata, f)
+        #with open("D:/file.json", "w+") as f:
+            #json.dump(mydata, f)
 
         return Response(data=mydata, status=status.HTTP_200_OK)
